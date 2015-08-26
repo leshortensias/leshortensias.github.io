@@ -1,23 +1,14 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+<div id="page">
+  <ul id="hortensias">
+    <li id="combien"><a href="infos.html" title="Combien ça coûte ?"></a></li>
+    <li id="venir"><a href="venir.html" title="C'est où ?"></a></li>
+    <li id="guide"><a href="guide.html" title="Visite guidée"></a></li>
+    <li id="partenaires"><a href="partenaires.html" title="Partenaires"></a></li>
+    <li id="meteo"><a href="meteo.html" title="Météo Marées"></a></li>
+    <li id="loisirs"><a href="tourisme.html" title="Information touristiques"></a></li>
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
