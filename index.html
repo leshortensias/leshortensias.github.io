@@ -1,14 +1,62 @@
 ---
 layout: home
 ---
+<body>
+  <style type="text/css">
+    #page {
+      background-color: white;
+      text-align: center;
+    }
 
-<div id="page">
-  <ul id="hortensias">
-    <li id="combien"><a href="infos.html" title="Combien ça coûte ?"></a></li>
-    <li id="venir"><a href="venir.html" title="C'est où ?"></a></li>
-    <li id="guide"><a href="guide.html" title="Visite guidée"></a></li>
-    <li id="partenaires"><a href="partenaires.html" title="Partenaires"></a></li>
-    <li id="meteo"><a href="meteo.html" title="Météo Marées"></a></li>
-    <li id="loisirs"><a href="tourisme.html" title="Information touristiques"></a></li>
-  </ul>
-</div>
+    #hortensias {
+      text-align: center;
+      width: 800px;
+      height: 600px;
+      background: url(images/home.png);
+      margin: 10px auto;
+      padding: 0;
+      position: relative;
+    }
+    #hortensias li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      position: absolute;
+      display: block;
+    }
+    #hortensias a {
+      display: block;
+      height:100%;
+    }
+    #combien { left:55px; top:12px; width:196px; height:125px;}
+    #combien a:hover {background: url(images/home.png) -54px -612px no-repeat;}
+
+    #venir { left: 555px; top:0px; width:160px; height:150px}
+    #venir a:hover {background: url(images/home.png) -554px -600px no-repeat;}
+
+    #guide { left:6px; top:189px; width:464px; height:402px }
+    #guide a:hover {background: url(images/home.png) -5px -789px no-repeat;}
+
+    #meteo { left:130px; top:439px; width:134px; height:130px }
+    #meteo a:hover {background: url(images/home.png) -130px -1223px no-repeat;}
+
+    #partenaires { left:23px; top:524px; width:70px; height:60px }
+    #partenaires a:hover {background: url(images/home.png) -23px -1308px no-repeat;}
+
+    #loisirs { left:678px; top:450px; width:120px; height:84px }
+    #loisirs a:hover {background: url(images/home.png) -676px -1049px no-repeat;}
+
+  </style>
+
+  <div id="page">
+    <ul id="hortensias">
+      <li id="combien"><a href="infos.html" title="Combien ça coûte ?"></a></li>
+      <li id="venir"><a href="venir.html" title="C'est où ?"></a></li>
+      <li id="guide"><a href="guide.html" title="Visite guidée"></a></li>
+      <li id="partenaires"><a href="partenaires.html" title="Partenaires"></a></li>
+      <li id="meteo"><a href="meteo.html" title="Météo Marées"></a></li>
+      <li id="loisirs"><a href="tourisme.html" title="Information touristiques"></a></li>
+    </ul>
+  </div>
+  {% include menuTexte.html %}
+</body>
