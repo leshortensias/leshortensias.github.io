@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=Mise en ligne
+Exec=/home/pehem/Bureau/leshortensias.github.io/_bin/mise_en_ligne
