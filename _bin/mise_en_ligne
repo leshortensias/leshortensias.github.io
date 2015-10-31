@@ -1,0 +1,4 @@
+#!/bin/bash
+git commit -am "Modifications"
+git pull --no-edit
+git push
