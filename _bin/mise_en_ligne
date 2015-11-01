@@ -1,5 +1,5 @@
 #!/bin/bash
 cd /home/pehem/Bureau/leshortensias.github.io
-git commit -am "Modifications"
-git pull --no-edit
-git push
+git commit -am "Modifications" >> /home/pehem/Bureau/leshortensias.github.io/_bin/mel.log
+git pull --no-edit >> /home/pehem/Bureau/leshortensias.github.io/_bin/mel.log
+git push >> /home/pehem/Bureau/leshortensias.github.io/_bin/mel.log
