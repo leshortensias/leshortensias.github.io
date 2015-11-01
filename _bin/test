@@ -1,3 +1,4 @@
 #!/bin/bash
-WORKDIR=$(dirname $(dirname $0))
-jekyll server -w
+DIR=$(dirname $0)
+cd $DIR/../
+jekyll --server 
