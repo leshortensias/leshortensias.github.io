@@ -3,4 +3,3 @@ cd /home/pehem/Bureau/leshortensias.github.io
 git commit -am "Modifications"
 git pull --no-edit
 git push
-read
