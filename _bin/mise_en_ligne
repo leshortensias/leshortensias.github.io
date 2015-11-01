@@ -1,5 +1,6 @@
 #!/bin/bash
-cd /home/pehem/Bureau/leshortensias.github.io
-git commit -am "Modifications" >> /home/pehem/Bureau/leshortensias.github.io/_bin/mel.log
-git pull --no-edit >> /home/pehem/Bureau/leshortensias.github.io/_bin/mel.log
-git push >> /home/pehem/Bureau/leshortensias.github.io/_bin/mel.log
+WORKDIR=$(dirname $(dirname $0))
+cd $WORKDIR
+git commit -am "Modifications" >> $WORKDIR/_bin/mel.log
+git pull --no-edit >> $WORKDIR/_bin/mel.log
+git push >> $WORKDIR/_bin/mel.log
