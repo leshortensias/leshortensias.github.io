@@ -1,9 +1,0 @@
-# Site settings
-title: Les Hortensias
-email: les.hortensias@free.fr
-description: > # this means to ignore newlines until "baseurl:"
-  Trévou-Tréguignec, chambres d'hôtes, chambre d'art, gîte
-baseurl: "" # the subpath of your site, e.g. /blog/
-
-# Build settings
-markdown: kramdown
